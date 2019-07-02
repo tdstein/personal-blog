@@ -1,0 +1,14 @@
+title: Taylor Steinberg
+email: taylor@steinberg.xyz
+description: >-
+  This is the personal blog of Taylor Steinberg
+baseurl: "/"
+url: "blog.taylorsteinberg.com"
+twitter_username: tdstein
+github_username:  tdstein
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
