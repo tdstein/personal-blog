@@ -3,13 +3,16 @@ layout: post
 title: How to Build a Simple Personal Website
 date: 2019-07-02 14:37 -0400
 ---
-Over the weekend I put together a simple personal website. The following is a quick tutorial on creating a website using Gandi.net, GitHub Pages, and Cloudflare.
+
+Over the weekend I put together a simple personal website using [Gandi.net](https://admin.gandi.net), [GitHub Pages](https://pages.github.com/), and [Cloudlfare](https://cloudflare.com/). If you follow this tutorial, you should be up and running without issue. But, software is always changing. Let me know if anything breaks and needs to be updated.
+
+Good luck!
 
 ## Tutorial
 
 ### Register a Domain
 
-1. Buy and register a domain. I used [Gandi.net](https://www.gandi.net/en) to purchase `taylorsteinberg.com`.
+1. Buy and register a domain. I used [Gandi.net](https://www.gandi.net/) to purchase `taylorsteinberg.com`.
 
 ### Configure DNS
 
@@ -74,7 +77,7 @@ Your website will be available at your domain once your DNS changes have been pr
 1. Choose a free plan.
 1. Follow the instructions to change your nameserver on Gandi.net to Cloudflare: Domain > Nameserver
 
-At this point your DNS will transfer to Cloudflare.
+At this point, your DNS will transfer to Cloudflare.
 
 ### Configure SSL for GitHub Pages
 
