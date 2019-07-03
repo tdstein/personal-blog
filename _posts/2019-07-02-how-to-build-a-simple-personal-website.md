@@ -72,10 +72,11 @@ This will create a CNAME record in your repository the value you entered.
 1. Add your site.
 1. Choose a free plan.
 1. Follow the instructions to change your nameserver on Gandi.net to Cloudflare: Domain > Nameserver
-
-At this point, your DNS will transfer to Cloudflare.
+1. Enable "Always Use HTTPS": Crypto > Always Use HTTPS
 
 Once configured your domain will automatically be redirected over `https`.
+
+At this point, your DNS will transfer to Cloudflare.
 
 ### Wait
 
