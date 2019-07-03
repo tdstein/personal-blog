@@ -66,10 +66,6 @@ Note: Make sure you include `www.` in the domain name.
 
 This will create a CNAME record in your repository the value you entered.
 
-### Wait
-
-Your website will be available at your domain once your DNS changes have been propagated. This can take a few minutes or a few hours.
-
 ### Configure Cloudflare
 
 1. Register an account on [Cloudlfare](https://cloudflare.com/)
@@ -79,9 +75,8 @@ Your website will be available at your domain once your DNS changes have been pr
 
 At this point, your DNS will transfer to Cloudflare.
 
-### Configure SSL for GitHub Pages
-
-1. Enable "Enforce HTTPS" for your repository: Settings > GitHub Pages > Source > Enforce HTTPS.
-
 Once configured your domain will automatically be redirected over `https`.
 
+### Wait
+
+Your website will be available at your domain once your DNS changes have been propagated. This can take a few minutes or a few hours.
