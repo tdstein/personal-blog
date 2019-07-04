@@ -6,6 +6,7 @@ baseurl: "/"
 url: "blog.taylorsteinberg.com"
 twitter_username: tdstein
 github_username:  tdstein
+google_analytics: UA-143335693-1
 
 # Build settings
 markdown: kramdown
