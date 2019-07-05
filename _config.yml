@@ -3,10 +3,13 @@ email: taylor@steinberg.xyz
 description: >-
   This is the personal blog of Taylor Steinberg
 baseurl: "/"
-url: "blog.taylorsteinberg.com"
+url: "https://blog.taylorsteinberg.com"
 twitter_username: tdstein
 github_username:  tdstein
 google_analytics: UA-143335693-1
+
+disqus:
+    shortname: taylor-steinberg
 
 # Build settings
 markdown: kramdown
