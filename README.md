@@ -41,8 +41,8 @@ Commits the master branch are automiatcally deployed using [GitHub Pages](https:
 
 ## Built With
 
-* [Jekyll](https://jekyllrb.com/) - Transform your plain text into static websites and blogs.
-* [GitHub Pages](https://pages.github.com/) - Websites for you and your projects.
+- [Jekyll](https://jekyllrb.com/) - Transform your plain text into static websites and blogs.
+- [GitHub Pages](https://pages.github.com/) - Websites for you and your projects.
 
 ## Authors
 
