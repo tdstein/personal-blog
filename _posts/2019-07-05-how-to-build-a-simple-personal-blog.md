@@ -119,7 +119,7 @@ jekyll new personal-blog && cd personal-blog
 
 This will generate everything you need to get started in a new directory called `personal-blog`. You can view those files using `ls` or open them in your favorite editor. I like to use [Visual Studio](https://code.visualstudio.com/) for working on websites. This is how the contents of your blog will appear in Visual Studio:
 
-![My Personal Blog in Visual Studio](/assets/images/how-to-build-a-simple-personal-blog/1.png)
+![My Personal Blog in Visual Studio](/assets/images/how-to-build-a-simple-personal-blog/1.jpg)
 
 Next, you need to use bundler to install all of the necessary dependencies:
 
@@ -165,7 +165,7 @@ bundle exec jekyll serve --drafts
 
 Now when you navigate to [localhost:4000](http://localhost:4000) in your web browser, you will see your new post, "My First Post":
 
-![My First Post](/assets/images/how-to-build-a-simple-personal-blog/2.png)
+![My First Post](/assets/images/how-to-build-a-simple-personal-blog/2.jpg)
 
 ## Publish a Post
 
@@ -203,7 +203,7 @@ Now you are ready to `push` your project to GitHub. Create a public repository u
 
 Once you have pushed your code to the master branch. Go to your project settings and enable GitHub Pages:
 
-![GitHub Pages Settings](/assets/images/how-to-build-a-simple-personal-blog/3.png)
+![GitHub Pages Settings](/assets/images/how-to-build-a-simple-personal-blog/3.jpg)
 
 Note: I've registered my blog under a custom domain so your settings will look a little bit different. Check out my post on [How to Build a Simple Personal Website]({% post_url 2019-07-02-how-to-build-a-simple-personal-website %}) to learn how to register a custom domain.
 
