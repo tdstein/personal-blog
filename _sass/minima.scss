@@ -10,11 +10,18 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+// Color pallet
+$color1: rgba(50, 14, 59, 1);
+$color2: rgba(122, 125, 125, 1);
+$color3: rgba(208, 207, 207, 1);
+$color4: rgba(86, 82, 84, 1);
+$color5: rgba(23, 23, 23, 1);
 
-$grey-color:       #828282 !default;
+$text-color:       rgba(23, 23, 23, 1) !default;
+$background-color: #FAFAFA !default;
+$brand-color:      rgba(50, 14, 59, 1) !default;
+
+$grey-color:       rgba(122, 125, 125, 1) !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
