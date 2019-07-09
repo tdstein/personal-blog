@@ -3,6 +3,7 @@ layout: post
 title: How to Build a Simple Personal Blog
 categories: software
 tags: tutorial
+image: /assets/images/how-to-build-a-simple-personal-blog/2.jpg
 date: 2019-07-05 15:37 -0400
 ---
 This is a tutorial on how to create a simple blog using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/). I want to give you a fair warning. If you have never worked in software development this process may seem cumbersome. But, if you are willing to get your hands dirty it is well worth it. You'll also be able to tell all your friends and co-workers that you are a real website developer!
