@@ -1,9 +1,10 @@
 ---
 layout: post
 title: How to Build a Simple Personal Website
-date: 2019-07-02 14:37 -0400
 categories: software
 tags: tutorial
+image: /assets/images/how-to-build-a-simple-personal-blog/1.jpg
+date: 2019-07-02 14:37 -0400
 ---
 
 Over the weekend I put together a simple personal website using [Gandi.net](https://admin.gandi.net), [GitHub Pages](https://pages.github.com/), and [Cloudlfare](https://cloudflare.com/). If you follow this tutorial, you should be up and running without issue. But, software is always changing. Let me know if anything breaks and needs to be updated.
