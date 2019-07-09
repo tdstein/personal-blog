@@ -10,12 +10,14 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
-      {%- if post.image -%}
-          <div class="post-image">
-              <img src="{{ post.image }}">
-          </div>
-      {%- endif -%}
       <li>
+        {%- if post.image -%}
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            <div class="post-image">
+                <img src="{{ post.image }}">
+            </div>
+          </a>
+        {%- endif -%}
         <h3 style="margin-bottom: 0">
           <a class="post-link" href="{{ post.url | relative_url }}">
             <b>{{ post.title | escape }}</b>
