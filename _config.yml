@@ -20,6 +20,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+exclude:
+  - .gitignore
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
 header_pages:
   - index.md
   - about.md
