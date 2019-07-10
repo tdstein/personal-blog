@@ -37,7 +37,7 @@ bundle exec jekyll serve
 
 ## Deployment
 
-Commits the master branch are automiatcally deployed using [GitHub Pages](https://pages.github.com/).
+Commits to the master branch are automatically deployed using [GitHub Pages](https://pages.github.com/).
 
 ## Built With
 
