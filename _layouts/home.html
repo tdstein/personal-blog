@@ -11,23 +11,15 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-        {%- if post.image -%}
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            <div class="post-image">
-                <img src="{{ post.image }}">
-            </div>
-          </a>
-        {%- endif -%}
+        {%- assign date_format = site.minima.date_format | default: "%A, %B %-d, %Y" -%}
+        <span class="post-meta">
+          <i>{{ post.date | date: date_format }}</i>
+        </span>
         <h3 style="margin-bottom: 0">
           <a class="post-link" href="{{ post.url | relative_url }}">
             <b>{{ post.title | escape }}</b>
           </a>
         </h3>
-        {%- assign date_format = site.minima.date_format | default: "%A, %B %-d, %Y" -%}
-        <span class="post-meta">
-          <i>{{ post.date | date: date_format }}</i>
-        </span>
-
         <div class="post-excerpt">
           {%- if site.show_excerpts -%}
             {{ post.excerpt | truncatewords: 50 }}

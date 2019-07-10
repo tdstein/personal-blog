@@ -3,7 +3,6 @@ layout: post
 title: How to Build a Simple Personal Website
 categories: software
 tags: tutorial
-image: /assets/images/how-to-build-a-simple-personal-blog/1.jpg
 date: 2019-07-02 14:37 -0400
 ---
 
