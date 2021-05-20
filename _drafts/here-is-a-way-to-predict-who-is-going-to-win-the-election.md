@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Here is a way to predict who is going to win the election.
-date: 2020-11-01 00:53 -0400
 ---
 Take the winners of each of the past two elections, which may be one or two presidents. Place them on the circumference of a circle with a distance along the rim between them so that space represents the Overton Window's size. The radius of the ring is representative of the size of the Overton Window. To pick the candidate that is most likely to win the next election, take the point opposite the original two so that when lines are drawn between them, they form an equilateral triangle. Then draw a line between the center of the circle and the third point so that the line intersects with the opposing side of the triangle at a perpendicular. 
 
