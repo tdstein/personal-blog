@@ -52,7 +52,7 @@ Note: Replace username with your GitHub username.
 ## Website
 
 1. Create a new public repository on [GitHub](https://github.com/) under your personal account. I called mine [`personal-website`](https://github.com/tdstein/personal-website). You can call yours whatever you want to.
-1. Create an [`index.html`](#index.html) file on the master branch of your new repository:
+1. Create an [`index.html`](#index.html) file on the main branch of your new repository:
 
 ```html
 <!DOCTYPE HTML>
@@ -65,7 +65,7 @@ Note: Replace username with your GitHub username.
 
 ## Hosting
 
-1. Enable [GitHub Pages](https://pages.github.com/) for your repository: Settings > GitHub Pages > Source > Master Branch.
+1. Enable [GitHub Pages](https://pages.github.com/) for your repository: Settings > GitHub Pages > Source > Main Branch.
 1. Configure GitHub Pages to use your custom domain: Settings > GitHub Pages > Custom Domain > `www.example.com`
 
 Note: Make sure you include `www.` in the domain name.
